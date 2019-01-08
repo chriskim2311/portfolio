@@ -36,7 +36,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    font: 400 14px 'Poppins', sans-serif;
+    font: 400 16px 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     line-height: 30px;
     color: #727272;
@@ -157,7 +157,7 @@ a:not([href]):not([tabindex]) {
     transition: all .3s;
     position: relative;
     color: #FFF;
-    background-color: #333;
+    background-color: #ff9c6b;
     z-index: 20;
     letter-spacing: 2px;
     overflow: hidden;
@@ -658,14 +658,14 @@ h2.menu-item:after {
 /* --- Inline Menu --- */
 
 .inline-menu-container {
-    background: #F1F3F6;
+    background: rgb(250, 193, 107);
     position: fixed;
     height: 40px;
     width: 69%;
     right: 13px;
     top: -50px;
     transition: all 0.5s;
-    z-index: 1;
+    z-index: 999999;
 }
 
 .inline-menu-container.showx {
@@ -1016,7 +1016,7 @@ h2.menu-item:after {
 
 .social li i {
     line-height: 32px;
-    font-size: 12px;
+    font-size: 26px;
 }
 
 .social a:hover {
@@ -1146,14 +1146,17 @@ h2.menu-item:after {
 .icon-list li {
     padding-left: 25px;
 }
+.devicon {
+    max-width: 3em;
+}
 
 .icon-list li:before {
     position: absolute;
-    content: '\f3fd';
-    font-family: 'Ionicons';
+    /* content: '\f3fd';
+    font-family: 'Ionicons'; */
     font-size: 24px;
     left: 20px;
-    color: #666;
+    color: #667;
 }
 
 .timeline {
@@ -1447,7 +1450,7 @@ h4.package {
 }
 
 .filters {
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 .filters span {
@@ -2073,9 +2076,9 @@ h4.package {
 }
 
 .contact-content {
-    display: table;
+    /* display: table; */
     width: 100%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .contact-icon {
@@ -2083,7 +2086,7 @@ h4.package {
     vertical-align: top;
     font-size: 30px;
     text-align: center;
-    color: #666;
+    color: rgb(210, 126, 0);
 }
 
 .contact-details,
@@ -2148,7 +2151,7 @@ h4.package {
 
 -------------------------------------------------------------------*/
 
-@media (min-width:1920px) {
+@media (min-width:1700px) {
     .name-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2161,28 +2164,21 @@ h4.package {
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
         left: 702px;
-        top: -60px;
+        top: -130px;
     }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 897px;
-        top: 179px;
-    }
-    .blog-block {
-        -ms-transform: rotate(-34deg);
-        -webkit-transform: rotate(-34deg);
-        transform: rotate(-34deg);
-        left: 1092px;
-        top: 518px;
+        left: 1061px;
+        top: 80px;
     }
     .contact-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 1386px;
-        top: 138px;
+        left: 1010px;
+        top: 628px;
     }
     .name-block.reverse {
         width: 400px;
@@ -2198,7 +2194,7 @@ h4.package {
     }
 }
 
-@media (min-width:1280px) and (max-width:1919px) {
+@media (min-width:1280px) and (max-width:1699px) {
     .name-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
@@ -2210,15 +2206,15 @@ h4.package {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 382px;
-        top: -151px;
+        left: 404px;
+        top: -132px;
     }
     .portfolio-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 577px;
-        top: 89px;
+        left: 757px;
+        top: 66px;
     }
     .blog-block {
         -ms-transform: rotate(-34deg);
@@ -2231,8 +2227,8 @@ h4.package {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 1067px;
-        top: 48px;
+        left: 808px;
+        top: 592px;
     }
 }
 
@@ -2429,7 +2425,7 @@ h4.package {
 
 @media (max-width:800px) and (orientation:landscape) {
     .home {
-        background: url(../images/bg.jpg) #333 30% 30%;
+        background: url(../images/losangeles.jpg) #333 30% 30%;
         overflow-y: scroll;
     }
     .name-block,
