@@ -710,7 +710,7 @@ h2.menu-item:after {
     float: right;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .inline-menu li {
@@ -719,7 +719,7 @@ h2.menu-item:after {
     font-weight: 600;
     line-height: 40px;
     margin-top: -5px;
-    padding: 0 15px;
+    padding: 0 10px;
     color: #666;
 }
 
@@ -1685,6 +1685,43 @@ h4.package {
 .post-nav a:hover {
     color: #333;
 }
+
+
+#post-modal .modal-dialog,
+#project-modal .modal-dialog {
+	width: 100%;
+	margin: 0;
+}
+#post-modal .modal-content,
+#project-modal .modal-content {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+.project-title h2 {
+	margin-bottom: 20px;
+}
+.project-title .tags {
+	font-weight: 700;
+	font-size: 12px;
+}
+.project-description {
+	text-align: justify;
+    border-top: 2px solid #ff9c6b;
+    margin-top: 10px;
+}
+.project-media {
+	margin: 0 auto;
+	max-width: 780px;
+	margin-top: 30px;
+}
+.project-caption {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
 
 /*-------------------------------------------------------------------
 
