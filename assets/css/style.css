@@ -2259,21 +2259,62 @@ h4.package {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 757px;
-        top: 66px;
+        left: 710px;
+        top: 40px;
     }
 
     .contact-block {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 808px;
-        top: 592px;
+        left: 477px;
+        top: 475px;
     }
 
 }
 
-@media (min-width:1025px) and (max-width:1280px) {
+@media (min-width:1025px) and (max-width:1280px)  {
+
+    .name-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: -200px;
+        top: -80px;
+    }
+
+    .about-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 419px;
+        top: -160px;
+		width:350px;
+		height: 300px;
+    }
+
+    .portfolio-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 586px;
+        top: 88px;
+		width:350px;
+		height: 300px;
+    }
+
+    .contact-block {
+        -ms-transform: rotate(-34deg);
+        -webkit-transform: rotate(-34deg);
+        transform: rotate(-34deg);
+        left: 753px;
+        top: 335px;
+		width:350px;
+		height: 300px;
+    }
+
+}
+@media (max-height:690px)  {
 
     .name-block {
         -ms-transform: rotate(-34deg);
@@ -2554,7 +2595,7 @@ h4.package {
         padding-left: 7%;
     }
 }
-@media (max-height:815px)  {
+@media (max-height:615px)  {
 
 	.home {
 		background: url(../images/losangeles.jpg) #333 30% 30%;
