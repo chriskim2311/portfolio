@@ -67,11 +67,11 @@
 
 	// Typing Animation (Typed.js)
 	$('#element').typed({
-	    strings: ["UX, UI Designer", "Web App Developer", "Social Animal!"],
+	    strings: ["Front End Developer","Entreprenuer", "Basketball Enthusiast"],
 	    typeSpeed: -50,
 	    loop: true,
 	    startDelay: 500,
-	    backDelay: 3000,
+	    backDelay: 5000,
 	    contentType: 'html',
 	});
 
@@ -237,3 +237,18 @@
 	    }
 	}
 })(jQuery);
+
+
+
+
+$('.open-project').on('click', function(){     
+	var projectUrl = $(this).attr("href");
+
+	var project = '<div class="modal fade" id="project-modal"><div class="inline-menu-container"><a id="modal-close" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></a></div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
+
+	$(project).modal({
+	  remote: projectUrl + ' #project'
+	});
+	
+	return false;
+});
