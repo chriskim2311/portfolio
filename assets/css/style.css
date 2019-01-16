@@ -2730,3 +2730,11 @@ h4.package {
 		width: 100%;
     }
 }
+
+
+.project {
+    position: relative;
+    width: 33.22222233%;
+    float: left;
+    overflow: hidden;
+}
