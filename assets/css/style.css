@@ -2130,6 +2130,7 @@ h4.package {
 .contact-details,
 .contact-icon {
     display: table-cell;
+    padding-left: 5%;
 }
 
 .contact-details h5,
@@ -2774,6 +2775,33 @@ h4.package {
 		height: 300px;
     }
 }
+
+
+@media (max-height:480px) and (max-width: 320px) {
+.contact-details{
+    font-size: 10px
+}
+
+}
+@media (max-height:640px) and (max-width: 360px) {
+    .contact-details{
+        font-size: 10px
+    }
+    
+    }
+    @media (max-height:568px) and (max-width: 320px) {
+        .contact-details{
+            font-size: 10px
+        }
+        
+        }
+        @media (max-height:1024px) and (max-width: 768px) {
+            .contact-details{
+                font-size: 10px
+            }
+            
+            }
+        
 
 
 
