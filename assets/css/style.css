@@ -1531,7 +1531,7 @@ h4.package {
 }
 
 .portfolio-item img {
-    max-height: 390px;
+    max-height: 335px;
     width: 100%;
     transition: all 5s;
 }
